@@ -13,3 +13,14 @@ export type Plant = {
   rarity?: Rarity;
   description: string;
 };
+
+// This is the type WITHOUT id (used for Add Plant form)
+export type NewPlant = {
+  name: string;
+  scientific?: string;
+  difficulty: Difficulty;
+  light: Light;
+  water: Water;
+  rarity?: Rarity;
+  description: string;
+};
